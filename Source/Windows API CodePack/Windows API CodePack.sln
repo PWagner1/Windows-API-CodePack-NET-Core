@@ -8,6 +8,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extended.Linguistic.Services", "Extended.Linguistic.Services\Extended.Linguistic.Services.csproj", "{EB8CD2FE-FEED-4819-8466-583BE452DAA9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sensors", "Sensors\Sensors.csproj", "{D457F7ED-3E69-4DB2-B88D-47E5A86BC6D7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{75243993-3D7A-4576-8F63-A13FB983C925} = {75243993-3D7A-4576-8F63-A13FB983C925}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shell", "Shell\Shell.csproj", "{37DB42B0-BCF1-44A5-BA81-14E967051840}"
 EndProject
